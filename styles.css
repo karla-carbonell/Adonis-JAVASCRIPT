@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Alice&display=swap");
+@font-face {
+  font-family: Jimmy;
+  src: url(assets/JimmyScript-Rg.otf);
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #F6EDD9;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+  /*dinamico de JS*/
+  /*
+
+    .catalogo{
+        .page-wrapper {
+            height: 100%;
+            display: table;
+            font-family: Alegreya;
+            
+            .page-inner{
+                display: table-cell;
+                vertical-align: middle;
+                
+            }
+            .el-wrapper{
+                width: 300px;
+                padding: 15px;
+                margin: 15px auto;
+                background-color: #4F7345;
+                border-radius: 15px;
+            }
+            .box-down{
+                .cart {
+                    display: inline-block ;
+                    border-radius: 50px;
+                    width: 50%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    font-family: Alegreya;
+                    font-weight: 700;
+                    background-color: #F6EDD9;
+                    text-decoration: none;
+                    color: #4F7345;
+                }
+
+                .cart:hover{
+                    background-color: #CCB867;
+                    text-decoration: none;
+                    color: #F6EDD9;
+
+                }
+            }
+            
+
+              
+            
+
+            
+
+
+        }
+    }
+
+
+    section{
+        width: 100%;
+        height: 423px;
+        padding-top: 95px;
+        padding-bottom: 920px;
+        background-color: #F6EDD9;
+        display: flex;
+        flex-direction: column;
+        font-family: Alice;
+        z-index: -2;
+        .shopp{
+
+            
+            h2{
+                font-weight: bold;
+                
+            }
+
+           
+        }
+    }
+*/
+}
+
+body .navbar {
+  position: fixed;
+  background-color: #4F7345;
+  height: 90px;
+  width: 100%;
+}
+
+body .navbar div ul .dropdown .btn-custom {
+  text-decoration: none;
+  color: #F6EDD9;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Alice;
+}
+
+body .navbar div ul .dropdown .dropdown-menu .dropdown-item {
+  text-decoration: none;
+  color: #4F7345;
+  font-size: 15px;
+  font-family: Alice;
+}
+
+body .navbar div ul li .nav-link {
+  text-decoration: none;
+  color: #F6EDD9;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Alice;
+}
+
+body .navbar div ul li .nav-link:hover {
+  color: #82A776;
+}
+
+body main {
+  color: #F6EDD9;
+  font-family: Alegreya;
+  font-size: 18px;
+  background-color: #F6EDD9;
+  padding-top: 85px;
+  padding-bottom: 45px;
+}
+
+body main .nosotros {
+  padding: 40px;
+  color: #4F7345;
+}
+
+body .titleBuzos {
+  padding-top: 120px;
+  font-size: 30px;
+  font-family: Jimmy;
+  text-align: center;
+}
+
+body #prodsHtml {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+}
+
+body #prodsHtml .cajaDinamica {
+  padding: 10px;
+  font-family: Alice;
+  background-color: #4F7345;
+  border: #F6EDD9 solid;
+  border-radius: 10px;
+  width: 300px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+body #prodsHtml .cajaDinamica .botonCards {
+  border-radius: 5px;
+  background-color: #F6EDD9;
+}
+
+body .titleCart {
+  font-size: 25px;
+  font-family: Jimmy;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+body #cartHtml {
+  padding-bottom: 100px;
+}
+
+body #cartHtml .cajaDinamicaCart {
+  padding: 5px;
+  font-family: Alice;
+  background-color: #4F7345;
+  border: #F6EDD9 solid;
+  border-radius: 10px;
+  width: 120px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+body #cartHtml .cajaDinamicaCart .botonCart {
+  border-radius: 5px;
+  background-color: #F6EDD9;
+}
+
+body footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-top: auto;
+  padding: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #4F7345;
+}
+
+body footer ul {
+  text-decoration: none;
+  list-style: none;
+  font-size: 30px;
+}
+
+body footer ul .fa-brands {
+  color: #F6EDD9;
+}
+/*# sourceMappingURL=styles.css.map */
